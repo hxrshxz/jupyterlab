@@ -5,8 +5,9 @@
   "files": [],
   "workspaces": [
     "dev_mode",
-    
+
     "examples/*",
+    
     "examples/federated/*",
     "packages/*",
     "packages/services/examples/node",

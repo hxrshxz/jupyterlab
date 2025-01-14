@@ -129,7 +129,11 @@ def build_api_docs(out_dir: Path):
     if dest_dir.exists():
         shutil.rmtree(str(dest_dir))
 
-    shutil.copytree(str(docs_api), str(dest_dir))
+    if os.path.exists(docs_api):
+     shutil.copytree(str(docs_api), str(dest_dir))
+    else:
+     print(f"Warning: API documentation source '{docs_api}' not found. Skipping...")
+
 
 
 # Copy frontend files for snippet inclusion

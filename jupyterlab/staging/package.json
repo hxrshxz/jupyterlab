@@ -194,7 +194,11 @@
     "@jupyterlab/translation-extension": "~4.4.0-alpha.2",
     "@jupyterlab/ui-components-extension": "~4.4.0-alpha.2",
     "@jupyterlab/vega5-extension": "~4.4.0-alpha.2",
-    "@jupyterlab/workspaces-extension": "~4.4.0-alpha.2"
+    "@jupyterlab/workspaces-extension": "~4.4.0-alpha.2",
+    "@rjsf/utils": "^5.24.1",
+    "@types/react": "^19.0.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^4.4.0-alpha.2",

@@ -118,16 +118,19 @@
     "eslint-plugin-jest": "~27.6.0",
     "eslint-plugin-prettier": "~5.0.1",
     "eslint-plugin-react": "~7.33.2",
+    "fast-uri": "^3.0.5",
     "prettier": "~3.0.0",
     "stylelint": "^15.10.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended": "^13.0.0",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-csstree-validator": "^3.0.0",
-    "stylelint-prettier": "^4.0.0"
+    "stylelint-prettier": "^4.0.0",
+    "typescript": "^5.0.0"
   },
   "devDependencies": {
     "lerna": "^7.1.4",
+    "patch-package": "^8.0.0",
     "typedoc": "~0.27.4",
     "typedoc-plugin-mdn-links": "^4.0.4"
   }
